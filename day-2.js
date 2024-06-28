@@ -16,7 +16,7 @@ function day2Part1() {
   walletNumber = Number(wallet);
 
   // 3. use a math expression with the > operator to say if the statements is true or false.
-  messageParagraph.innerHTML = `Coffee costs $${coffeeNumber}. You have $${walletNumber}. You can afford coffee? true or false? ${walletNumber > coffeeNumber}`
+  messageParagraph.innerHTML = `Coffee costs $${coffeeNumber}. You have $${walletNumber}. Can you afford the coffee? true or false? ${walletNumber > coffeeNumber}`
   
 }
 
@@ -38,7 +38,7 @@ function day2Part2() {
   
 
   // 3. use a math expression with the > operator to say if the statements is true or false.
-  messageParagraph.innerHTML = `The car costs $${carNumber}. You have $${bankNumber} in your bank. You can afford the car? true or false? ${bankNumber > carNumber}`
+  messageParagraph.innerHTML = `The car costs $${carNumber}. You have $${bankNumber} in your bank. Can you afford the car? true or false? ${bankNumber > carNumber}`
   
   
 }
@@ -62,7 +62,7 @@ function day2Part3() {
 
 
   // 3. use a math expression with the > operator to say if the statements is true or false.
-  messageParagraph.innerHTML = `The TV costs $${tvNumber}. Your wallet has $${walletNumber}. Can you buy the TV? true or false? ${walletNumber > tvNumber}`;
+  messageParagraph.innerHTML = `The TV costs $${tvNumber}. Your wallet has $${walletNumber}. Can you afford the TV? true or false? ${walletNumber > tvNumber}`;
 
 }
 part3.onclick = day2Part3;
@@ -84,7 +84,7 @@ function day2Part4() {
 
 
   // 3. use a math expression with the > operator to say if the statements is true or false.
-  messageParagraph.innerHTML = `The rocket costs $${rocketNumber}. You have $${bankNumber} in your bank account. Can you buy the rocket? true or false? ${bankNumber > rocketNumber}`;
+  messageParagraph.innerHTML = `The rocket costs $${rocketNumber}. You have $${bankNumber} in your bank account. Can you afford the rocket? true or false? ${bankNumber > rocketNumber}`;
 
 }
 part4.onclick = day2Part4;
